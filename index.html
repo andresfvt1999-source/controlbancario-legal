@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="utf-8"><title>Control Bancario</title></head>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Control Bancario</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:760px;margin:40px auto;padding:0 16px;line-height:1.6;color:#222}
+h1,h2{color:#1a3c6e}
+</style>
+</head>
 <body>
 <h1>Control Bancario</h1>
-<p>Aplicación personal que lee notificaciones bancarias del correo del propietario
-y las registra en su propia hoja de cálculo de Google Sheets para llevar el control
-de sus movimientos.</p>
-<p><a href="privacidad.html">Política de privacidad</a> ·
+<p>Control Bancario es una aplicación que ayuda a personas naturales a llevar el control de sus propios movimientos bancarios.</p>
+
+<h2>¿Qué hace?</h2>
+<ul>
+  <li>Lee, con autorización del usuario y en modo solo lectura, los correos de notificación que envían sus bancos a su cuenta de Gmail.</li>
+  <li>Extrae de cada notificación la fecha, el valor, la descripción y el medio de pago del movimiento.</li>
+  <li>Registra esa información en una hoja de cálculo de Google Sheets que pertenece al propio usuario.</li>
+  <li>Muestra en un panel el resumen diario y mensual de entradas y salidas.</li>
+</ul>
+
+<h2>Permisos de Google que solicita</h2>
+<ul>
+  <li><strong>Gmail (solo lectura):</strong> para identificar y leer las notificaciones de movimientos bancarios.</li>
+  <li><strong>Google Sheets:</strong> para escribir y leer los movimientos en la hoja del usuario.</li>
+</ul>
+
+<p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google se ceñirán a la
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Política de Datos de Usuario de los Servicios de las API de Google</a>,
+incluidos los requisitos de Uso Limitado.</p>
+
+<p><a href="privacidad.html">Política de privacidad y tratamiento de datos personales</a> ·
 <a href="condiciones.html">Condiciones del servicio</a></p>
-<p>Contacto: andresfvt1999@gmail.com</p>
-</body></html>
+
+<p>Responsable: Andrés Felipe Vargas Tabares · Contacto: andresfvt1999@gmail.com</p>
+</body>
+</html>
